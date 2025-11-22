@@ -144,6 +144,15 @@ body {
   .feature-item {
     font-size: 0.9rem;
   }
+
+  .bike-image {
+    height: 200px;
+  }
+
+  .feature-icon {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -478,7 +487,8 @@ body {
 .bike-slider-section {
   margin-top: 80px;
   padding: 80px 0;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  /* Xóa background gradient */
+  background: transparent;
 }
 
 .section-header {
@@ -538,6 +548,7 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   margin: 0 15px;
+  border: 1px solid #e9ecef;
 }
 
 .bike-card:hover {
@@ -595,6 +606,7 @@ body {
 
 .bike-info {
   padding: 25px;
+  background: white;
 }
 
 .bike-name {

@@ -1,11 +1,615 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog - Thuê Xe Máy Vinh</title>
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../access/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../access/favicon/favicon-32x32.png"
+    />
+    <link rel="manifest" href="../access/favicon/manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Bootstrap & FontAwesome -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body style="background-color: #f1f5ff; padding-top: 80px">
+    <!-- Navbar (giống index) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="../index.html"
+          title="Thuê xe máy Vinh"
+        >
+          <img
+            src="../access/img/logo.jpg"
+            alt="logo"
+            class="me-2"
+            style="width: 40px; height: 40px; border-radius: 6px"
+          />
+          <div>
+            <div class="fw-bold">Thuê Xe Máy Vinh</div>
+            <small class="text-light opacity-75"
+              >Dịch vụ uy tín - Giá cả hợp lý</small
+            >
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMain"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./danhsach.html">Danh sách xe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./banggia.html">Bảng giá</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./lienhe.html">Liên hệ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./vechungtoi.html">Về chúng tôi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./Blog.html">Blog</a>
+            </li>
+          </ul>
+          <div class="navbar-text d-flex align-items-center">
+            <i class="fas fa-phone me-2"></i>
+            <div class="text-end">
+              <div class="fw-bold">0968 936 082</div>
+              <small class="opacity-75">7h00 - 21h00</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page header -->
+    <header class="container my-5">
+      <div class="bg-white shadow-sm rounded-3 p-4 text-center">
+        <h1 class="h3 mb-2">
+          <i class="fas fa-blog me-2 text-primary"></i>Blog / Tin tức
+        </h1>
+        <p class="text-muted mb-0">
+          Cập nhật mẹo lái xe, hướng dẫn thuê xe và thông tin dịch vụ.
+        </p>
+      </div>
+    </header>
+
+    <!-- Main content: made intentionally long (nhiều bài viết, nội dung dài) -->
+    <main class="container mb-5">
+      <div class="row">
+        <!-- Posts column (dọc dài) -->
+        <div class="col-lg-8">
+          <!-- Repeat nhiều bài viết để kéo dài trang -->
+
+          <!-- Post A -->
+          <article class="card mb-4 shadow-sm">
+            <img
+              src="../access/img/hondawinner.jpg"
+              class="card-img-top"
+              alt="Kinh nghiệm lái xe an toàn"
+            />
+            <div class="card-body">
+              <h2 class="h5">Kinh nghiệm lái xe an toàn cho người mới</h2>
+              <p class="text-muted small">12/08/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Nếu bạn mới lái xe máy, đây là những điều thiết yếu cần biết
+                trước khi ra đường. Kiểm tra phanh, đèn, dầu, và hơi lốp; mặc đồ
+                bảo hộ; giữ tốc độ phù hợp; và luôn giữ khoảng cách an toàn.
+                Trong bài viết này, chúng tôi hướng dẫn chi tiết từng bước kiểm
+                tra nhanh trước khi khởi hành, cách xử lý khi xe chết máy giữa
+                đường, mẹo an toàn khi đi qua ngã tư, và kỹ thuật phanh đúng
+                lúc.
+              </p>
+              <p>
+                Ngoài ra, bài viết có phần hướng dẫn tập luyện trên khu vực vắng
+                để làm quen với kích thước xe, điều khiển tay ga và phanh, cùng
+                hướng dẫn cầm lái khi chở hàng hoặc chở 2. Đọc kỹ để giảm tối đa
+                rủi ro và tăng tự tin khi điều khiển phương tiện.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post B -->
+          <article class="card mb-4 shadow-sm">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="../access/img/yamahaexciter.jpg"
+                  class="img-fluid rounded-start"
+                  alt="So sánh các loại xe"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="h5">So sánh các loại xe phổ biến khi thuê</h2>
+                  <p class="text-muted small">05/07/2024 · Thuê Xe Máy Vinh</p>
+                  <p>
+                    Bài viết phân tích ưu nhược điểm của các mẫu xe phổ biến:
+                    Honda Winner X, Yamaha Exciter, Suzuki Raider và xe ga như
+                    Air Blade, Vision. Mỗi mẫu phù hợp cho nhu cầu khác nhau —
+                    đường dài, đường đèo, đi nội ô, hay thuận tiện cho du lịch
+                    gia đình. Chúng tôi so sánh động cơ, tiêu thụ nhiên liệu, độ
+                    ổn định, giá thuê, và chi phí bảo dưỡng.
+                  </p>
+                  <p>
+                    Kèm theo đó là bảng so sánh ngắn giúp bạn chọn nhanh: nếu
+                    cần tốc độ tốt và thể thao chọn xe côn; muốn tiện lợi, dễ
+                    lái chọn xe ga; cần bền bỉ, ít hỏng vặt chọn các mẫu đã được
+                    kiểm chứng.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary btn-sm"
+                    >Đọc tiếp</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post C -->
+          <article class="card mb-4 shadow-sm">
+            <img
+              src="../access/img/suzikiraider.jpg"
+              class="card-img-top"
+              alt="Hướng dẫn thuê xe"
+            />
+            <div class="card-body">
+              <h2 class="h5">Hướng dẫn thuê xe: giấy tờ và quy trình</h2>
+              <p class="text-muted small">20/06/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Chuẩn bị giấy tờ: CMND/CCCD hoặc hộ chiếu (khách nước ngoài).
+                Lưu ý bản gốc và một bản photo nếu cửa hàng yêu cầu. Kiểm tra
+                hợp đồng, điều kiện bảo hiểm, quy định hoàn trả nhiên liệu và
+                thời gian trễ giờ. Bài viết hướng dẫn từng bước ký hợp đồng, đặt
+                cọc (nếu có), nhận xe, và thủ tục trả xe để tránh tranh chấp.
+              </p>
+              <p>
+                Phần FAQ giải đáp các câu hỏi thường gặp như: thuê theo giờ có
+                tính phí như thế nào, mất chìa khóa xử lý ra sao, và chính sách
+                hủy/hoãn.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post D (mở rộng nội dung để kéo dài) -->
+          <article class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h2 class="h5">
+                Chuẩn bị hành trình: mẹo chọn tuyến và bảo dưỡng trước chuyến đi
+              </h2>
+              <p class="text-muted small">10/06/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Lập kế hoạch lộ trình: chọn tuyến tránh đường xấu và khu vực quá
+                đông. Luôn kiểm tra thời tiết trước khi đi. Bảo dưỡng cơ bản:
+                kiểm tra ốc bắt bánh, hệ thống phanh, xi-lanh, dầu phanh, và
+                lốp. Mang theo dụng cụ sửa xe nhỏ như bơm tay, bộ vá săm.
+              </p>
+              <p>
+                Trong phần này có checklist in ra để bạn mang theo. Phần trải
+                nghiệm từ khách hàng chia sẻ mẹo đi đèo an toàn, cách tránh hiện
+                tượng mệt mỏi khi lái xe lâu.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post E -->
+          <article class="card mb-4 shadow-sm">
+            <img
+              src="../access/img/hondawinner.jpg"
+              class="card-img-top"
+              alt="Bảo dưỡng xe"
+            />
+            <div class="card-body">
+              <h2 class="h5">Bảo dưỡng xe thuê: những việc bạn nên biết</h2>
+              <p class="text-muted small">02/06/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Khi thuê xe, bạn nên kiểm tra tình trạng trước khi nhận: vết
+                xước, tình trạng lốp, đèn và còi, lượng xăng ban đầu. Nếu phát
+                hiện hỏng hóc nhỏ trong quá trình thuê, liên hệ ngay cửa hàng để
+                được hướng dẫn hoặc đổi xe.
+              </p>
+              <p>
+                Phần hướng dẫn có kèm ảnh minh họa các bước kiểm tra nhanh và
+                bảng liệt kê các hỏng hóc thường gặp cùng cách xử lý tạm thời.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post F -->
+          <article class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h2 class="h5">
+                An toàn mùa mưa: cách chạy xe trên đường trơn trượt
+              </h2>
+              <p class="text-muted small">22/05/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Mùa mưa tăng nguy cơ trượt, cẩn trọng khi qua vạch sơn, cống, và
+                vũng nước. Giữ tốc độ chậm, tránh phanh gấp, dùng cả hai phanh
+                nhẹ nhàng. Lưu ý khoảng cách an toàn lớn hơn, bật đèn chiếu gần
+                và mặc áo mưa phản quang.
+              </p>
+              <p>
+                Bài có checklist đồ cần mang theo khi đi mưa và mẹo giữ thiết bị
+                điện trên xe không bị ướt.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post G -->
+          <article class="card mb-4 shadow-sm">
+            <img
+              src="../access/img/yamahaexciter.jpg"
+              class="card-img-top"
+              alt="Tiết kiệm nhiên liệu"
+            />
+            <div class="card-body">
+              <h2 class="h5">Mẹo tiết kiệm nhiên liệu khi đi xe máy</h2>
+              <p class="text-muted small">08/05/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Điều chỉnh ga ổn định, giữ vòng tua phù hợp, tránh tăng giảm ga
+                liên tục. Giữ lốp đúng áp suất và vệ sinh lọc gió định kỳ giúp
+                giảm tiêu thụ. Bài viết hướng dẫn từng bước và so sánh mức tiêu
+                thụ của các mẫu xe để bạn lựa chọn hợp lý.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post H -->
+          <article class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h2 class="h5">Chuẩn bị đồ cho chuyến đi dài bằng xe máy</h2>
+              <p class="text-muted small">20/04/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Đóng gói gọn nhẹ: dụng cụ sửa chữa, áo mưa, bộ sơ cứu, nước và
+                thực phẩm khô. Phân bố đồ trên cốp và balo để không làm ảnh
+                hưởng tới trọng tâm xe. Hướng dẫn buộc đồ an toàn, bảo quản tài
+                sản cá nhân và cách nghỉ ngơi hợp lý khi lái xe đường dài.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post I -->
+          <article class="card mb-4 shadow-sm">
+            <img
+              src="../access/img/suzukiraider.jpg"
+              class="card-img-top"
+              alt="Kinh nghiệm chạy đèo"
+            />
+            <div class="card-body">
+              <h2 class="h5">Kinh nghiệm chạy đèo an toàn</h2>
+              <p class="text-muted small">05/04/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Chọn bánh xe và phanh phù hợp, xuống dốc đúng kỹ thuật, sử dụng
+                số thấp để giữ tốc độ. Hạn chế phanh liên tục để tránh quá
+                nhiệt. Bài viết có video minh họa kỹ thuật xuống dốc và cách xử
+                lý khi gặp xe lớn trên đèo.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post J -->
+          <article class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h2 class="h5">
+                Những điểm du lịch gần Vinh phù hợp cho đi xe máy
+              </h2>
+              <p class="text-muted small">18/03/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Gợi ý lịch trình 1-2 ngày: địa điểm tham quan, quán ăn, chỗ dừng
+                chân an toàn. Lời khuyên về cung đường đẹp và an toàn cho xe
+                máy. Kèm bản đồ và thời gian ước lượng cho từng chặng.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post K -->
+          <article class="card mb-4 shadow-sm">
+            <img
+              src="../access/img/hondawinner.jpg"
+              class="card-img-top"
+              alt="Câu chuyện khách hàng"
+            />
+            <div class="card-body">
+              <h2 class="h5">
+                Câu chuyện khách hàng: trải nghiệm thuê xe tại Vinh
+              </h2>
+              <p class="text-muted small">01/03/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Tổng hợp phản hồi, câu chuyện thực tế từ khách hàng đã trải
+                nghiệm dịch vụ. Những điểm được khen và những cải tiến chúng tôi
+                đã làm theo góp ý.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Post L -->
+          <article class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h2 class="h5">Chính sách bảo hiểm và bồi thường khi thuê xe</h2>
+              <p class="text-muted small">10/02/2024 · Thuê Xe Máy Vinh</p>
+              <p>
+                Giải thích rõ ràng chính sách bảo hiểm, tình huống được bảo
+                hiểm, và các trường hợp khách hàng phải chịu trách nhiệm. Hướng
+                dẫn thủ tục khi xảy ra tai nạn.
+              </p>
+              <p>
+                Kèm mẫu form và số liên hệ khẩn cấp để khách hàng lưu lại trước
+                khi thuê.
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Đọc tiếp</a>
+            </div>
+          </article>
+
+          <!-- Simple pagination -->
+          <nav aria-label="Blog pagination" class="mt-4">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled"><a class="page-link">Trước</a></li>
+              <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="col-lg-4">
+          <div class="sticky-top" style="top: 100px">
+            <!-- Search -->
+            <div class="card mb-4">
+              <div class="card-body">
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Tìm bài viết..."
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Categories -->
+            <div class="card mb-4">
+              <div class="card-body">
+                <h6 class="mb-3">Chuyên mục</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2">
+                    <a href="#" class="text-decoration-none"
+                      ><i class="fas fa-angle-right me-2"></i>Mẹo lái xe</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-decoration-none"
+                      ><i class="fas fa-angle-right me-2"></i>Hướng dẫn thuê</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="text-decoration-none"
+                      ><i class="fas fa-angle-right me-2"></i>Tin khuyến mãi</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      ><i class="fas fa-angle-right me-2"></i>Tin tức công ty</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Recent posts -->
+            <div class="card mb-4">
+              <div class="card-body">
+                <h6 class="mb-3">Bài viết mới</h6>
+                <ul class="list-unstyled">
+                  <li class="mb-3">
+                    <a href="#" class="d-flex text-decoration-none">
+                      <img
+                        src="../access/img/hondawinner.jpg"
+                        alt=""
+                        style="
+                          width: 64px;
+                          height: 48px;
+                          object-fit: cover;
+                          border-radius: 6px;
+                        "
+                        class="me-2"
+                      />
+                      <div>
+                        <div class="small fw-bold">
+                          Kinh nghiệm lái xe an toàn
+                        </div>
+                        <div class="small text-muted">12/08/2024</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="d-flex text-decoration-none">
+                      <img
+                        src="../access/img/yamahaexciter.jpg"
+                        alt=""
+                        style="
+                          width: 64px;
+                          height: 48px;
+                          object-fit: cover;
+                          border-radius: 6px;
+                        "
+                        class="me-2"
+                      />
+                      <div>
+                        <div class="small fw-bold">
+                          So sánh các loại xe phổ biến
+                        </div>
+                        <div class="small text-muted">05/07/2024</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Contact card -->
+            <div class="card">
+              <div class="card-body text-center">
+                <h6>Liên hệ đặt xe</h6>
+                <p class="mb-1 fw-bold text-primary">0968 936 082</p>
+                <a href="./lienhe.html" class="btn btn-warning btn-sm"
+                  >Gửi yêu cầu</a
+                >
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Footer (giống index) -->
+    <footer class="footer-section text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="d-flex align-items-center mb-3">
+              <img
+                src="../access/img/logo.jpg"
+                alt="logo"
+                style="
+                  width: 44px;
+                  height: 44px;
+                  border-radius: 8px;
+                  margin-right: 10px;
+                "
+              />
+              <div class="fw-bold">Thuê Xe Máy Vinh</div>
+            </div>
+            <p>
+              Dịch vụ cho thuê xe máy uy tín, chất lượng cao tại Vinh - Nghệ An.
+            </p>
+            <div class="mb-2">
+              <i class="fas fa-phone me-2"></i>0968 936 082
+            </div>
+            <div class="mb-2">
+              <i class="fas fa-envelope me-2"></i>thuexemayvinh@gmail.com
+            </div>
+            <div>
+              <i class="fas fa-clock me-2"></i>Thứ 2 - Chủ nhật: 7:00 - 21:00
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h6>Liên kết nhanh</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="../index.html" class="text-white text-decoration-none"
+                  >Trang chủ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./danhsach.html"
+                  class="text-white text-decoration-none"
+                  >Danh sách xe</a
+                >
+              </li>
+              <li>
+                <a href="./banggia.html" class="text-white text-decoration-none"
+                  >Bảng giá</a
+                >
+              </li>
+              <li>
+                <a href="./lienhe.html" class="text-white text-decoration-none"
+                  >Liên hệ</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h6>Dịch vụ</h6>
+            <ul class="list-unstyled">
+              <li>Thuê xe theo ngày</li>
+              <li>Thuê xe theo giờ</li>
+              <li>Giao xe tận nơi</li>
+              <li>Hỗ trợ 24/7</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h6>Địa chỉ</h6>
+            <div>
+              <i class="fas fa-map-marker-alt me-2"></i>17 Quang Trung, Vinh
+            </div>
+            <div class="mt-2">
+              <i class="fas fa-map-marker-alt me-2"></i>83 Nguyễn Văn Cừ, Vinh
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="d-flex justify-content-between align-items-center mt-4 pt-3 border-top border-white-25"
+        >
+          <div>© 2024 Thuê Xe Máy Vinh. Tất cả quyền được bảo lưu.</div>
+          <div>
+            <a href="#" class="text-white me-3"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

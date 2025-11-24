@@ -308,7 +308,7 @@
           <!-- Post I -->
           <article class="card mb-4 shadow-sm">
             <img
-              src="../access/img/suzukiraider.jpg"
+              src="../access/img/suzikiraider.jpg"
               class="card-img-top"
               alt="Kinh nghiệm chạy đèo"
             />
@@ -509,101 +509,112 @@
       </div>
     </main>
 
-    <!-- Footer (giống index) -->
-    <footer class="footer-section text-white py-5">
+    <!-- Footer (replace with index footer) -->
+    <footer class="footer-section">
       <div class="container">
         <div class="row">
+          <!-- Thông tin công ty -->
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="d-flex align-items-center mb-3">
-              <img
-                src="../access/img/logo.jpg"
-                alt="logo"
-                style="
-                  width: 44px;
-                  height: 44px;
-                  border-radius: 8px;
-                  margin-right: 10px;
-                "
-              />
-              <div class="fw-bold">Thuê Xe Máy Vinh</div>
-            </div>
-            <p>
-              Dịch vụ cho thuê xe máy uy tín, chất lượng cao tại Vinh - Nghệ An.
-            </p>
-            <div class="mb-2">
-              <i class="fas fa-phone me-2"></i>0968 936 082
-            </div>
-            <div class="mb-2">
-              <i class="fas fa-envelope me-2"></i>thuexemayvinh@gmail.com
-            </div>
-            <div>
-              <i class="fas fa-clock me-2"></i>Thứ 2 - Chủ nhật: 7:00 - 21:00
+            <div class="footer-brand">
+              <div class="footer-logo">
+                <img src="../access/img/logo.jpg" alt="Thuê xe máy Vinh" />
+                <span>Thuê Xe Máy Vinh</span>
+              </div>
+              <p class="footer-description">
+                Dịch vụ cho thuê xe máy uy tín, chất lượng cao tại Vinh - Nghệ
+                An. Phục vụ khách hàng với giá cả hợp lý và dịch vụ chuyên
+                nghiệp.
+              </p>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <span>0968 936 082</span>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <span>thuexemayvinh@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-clock"></i>
+                  <span>Thứ 2 - Chủ nhật: 7:00 - 21:00</span>
+                </div>
+              </div>
             </div>
           </div>
 
+          <!-- Liên kết nhanh -->
           <div class="col-lg-2 col-md-6 mb-4">
-            <h6>Liên kết nhanh</h6>
-            <ul class="list-unstyled">
-              <li>
-                <a href="../index.html" class="text-white text-decoration-none"
-                  >Trang chủ</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./danhsach.html"
-                  class="text-white text-decoration-none"
-                  >Danh sách xe</a
-                >
-              </li>
-              <li>
-                <a href="./banggia.html" class="text-white text-decoration-none"
-                  >Bảng giá</a
-                >
-              </li>
-              <li>
-                <a href="./lienhe.html" class="text-white text-decoration-none"
-                  >Liên hệ</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mb-4">
-            <h6>Dịch vụ</h6>
-            <ul class="list-unstyled">
-              <li>Thuê xe theo ngày</li>
-              <li>Thuê xe theo giờ</li>
-              <li>Giao xe tận nơi</li>
-              <li>Hỗ trợ 24/7</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mb-4">
-            <h6>Địa chỉ</h6>
-            <div>
-              <i class="fas fa-map-marker-alt me-2"></i>17 Quang Trung, Vinh
+            <div class="footer-links">
+              <h5 class="footer-title">Liên kết nhanh</h5>
+              <ul class="footer-list">
+                <li><a href="../index.html">Trang chủ</a></li>
+                <li><a href="#danh-sach-xe">Danh sách xe</a></li>
+                <li><a href="#bang-gia">Bảng giá</a></li>
+                <li><a href="#huong-dan">Hướng dẫn</a></li>
+                <li><a href="#lien-he">Liên hệ</a></li>
+              </ul>
             </div>
-            <div class="mt-2">
-              <i class="fas fa-map-marker-alt me-2"></i>83 Nguyễn Văn Cừ, Vinh
+          </div>
+
+          <!-- Dịch vụ -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="footer-links">
+              <h5 class="footer-title">Dịch vụ</h5>
+              <ul class="footer-list">
+                <li>Thuê xe theo ngày</li>
+                <li>Thuê xe theo giờ</li>
+                <li>Giao xe tận nơi</li>
+                <li>Hỗ trợ 24/7</li>
+                <li>Bảo hiểm xe</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Địa chỉ -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="footer-links">
+              <h5 class="footer-title">Địa chỉ</h5>
+              <div class="address-info">
+                <div class="address-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <strong>Cơ sở 1:</strong><br />
+                    17 Quang Trung, Vinh, Nghệ An
+                  </div>
+                </div>
+                <div class="address-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <strong>Cơ sở 2:</strong><br />
+                    83 Nguyễn Văn Cừ, Vinh, Nghệ An
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div
-          class="d-flex justify-content-between align-items-center mt-4 pt-3 border-top border-white-25"
-        >
-          <div>© 2024 Thuê Xe Máy Vinh. Tất cả quyền được bảo lưu.</div>
-          <div>
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="#" class="text-white me-3"
-              ><i class="fab fa-youtube"></i
-            ></a>
+        <!-- Footer bottom -->
+        <div class="footer-bottom">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p class="copyright">
+                © 2024 Thuê Xe Máy Vinh. Tất cả quyền được bảo lưu.
+              </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div class="social-links">
+                <a href="#" class="social-link"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

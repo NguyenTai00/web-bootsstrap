@@ -739,8 +739,6 @@ body {
   color: rgba(255, 255, 255, 0.9);
 }
 
-
-
 /* Feature cards */
 .feature-card {
   background: rgba(255, 255, 255, 0.95);
@@ -1287,35 +1285,64 @@ body {
   }
 }
 
-@media (max-width: 576px) {
-  .bike-slider-section {
-    margin-top: 40px;
-    padding: 40px 0;
-  }
+/* --- Fix căn giữa và tránh chồng lấn cho trang "Về chúng tôi" --- */
 
-  .section-title {
-    font-size: 1.8rem;
-  }
+/* Đảm bảo các card trong main được hiển thị dạng cột, nội dung căn giữa */
+main .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* căn giữa ngang */
+  justify-content: flex-start;
+  text-align: center; /* nội dung trong card căn giữa */
+  overflow: visible;
+  min-height: 180px; /* đảm bảo không quá thấp gây chồng lấn */
+  padding: 1rem;
+}
 
-  .bike-slide {
-    min-width: 100%;
-    flex: 0 0 100%;
-  }
+/* Ảnh avatar luôn ở giữa và không gây tràn */
+main .card img.rounded-circle {
+  display: block;
+  margin: 0 auto 0.75rem auto;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
 
-  .bike-card {
-    margin: 0 5px;
-  }
+/* Tiêu đề, vai trò, mô tả căn giữa rõ ràng */
+main .card .fw-bold,
+main .card .small,
+main .card p {
+  margin: 0.15rem 0;
+  text-align: center;
+}
 
-  .bike-info {
-    padding: 20px;
-  }
+/* Timeline cards có chiều cao tối thiểu để không bị chồng khi nội dung ngắn */
+main .timeline .card {
+  min-height: 160px;
+}
 
-  .bike-name {
-    font-size: 1.2rem;
+/* Khoảng cách giữa các cột khi thu nhỏ (nếu dùng grid) */
+@media (max-width: 767.98px) {
+  main .row.g-3 > [class*="col-"] {
+    margin-bottom: 1rem;
   }
+}
 
-  .feature-tag {
-    font-size: 0.8rem;
-    padding: 4px 8px;
-  }
+/* Nếu có dấu list-marker xuất hiện do CSS khác, ẩn marker cho toàn bộ card */
+main .card,
+main .card * {
+  list-style: none;
+}
+
+/* Chống chồng lấn các section (clear + spacing) */
+main > section {
+  clear: both;
+  margin-bottom: 1.5rem;
+}
+
+/* Nâng cao: reset cho footer lists (tránh marker trên mobile) */
+.footer-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }

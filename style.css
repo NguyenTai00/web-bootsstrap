@@ -684,8 +684,8 @@ body {
 /* Responsive cho slider */
 @media (max-width: 992px) {
   .bike-slide {
-    min-width: 50%;
-    flex: 0 0 50%;
+     min-width: 50%; 
+     flex: 0 0 50%; 
     padding: 0 10px;
   }
 }
